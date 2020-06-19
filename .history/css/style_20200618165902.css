@@ -1,0 +1,53 @@
+/* css初始化 */
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+/* 正文部分 */
+.Tbox{
+    width: 640px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: sandybrown;
+}
+.Tbox>header{
+   height: 44px;
+   padding: 0 15px;
+   background: #ef1333;
+   display: flex;
+   align-items: center;
+}
+.Tbox>header>a
+
+/* 页脚部分 */
+footer{
+    position: fixed;
+    bottom: 0;
+    height: 54px;
+    width: 100%;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: #ffffff;;
+    border-top: 1px solid #cccccc;
+}
+footer>div{
+    flex: 1;
+}
+footer>div.active{
+    color: red;
+}
+footer>div>a{
+    display: block;
+    color: #000000;
+}
+footer>div>a.active{
+    color: red;
+}

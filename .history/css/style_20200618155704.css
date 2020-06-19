@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    height: ;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    background: green;
+    border-top: 1px solid #cccccc;
+}
